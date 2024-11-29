@@ -35,7 +35,7 @@ CustomizableProductStore/
 │   │   └── currencyFormatter.js        # Helper function to format prices
 │   ├── App.js                          # Main React app component (entry point)
 │   └── index.js                        # Entry point for rendering the React app
-├── .env                                # Environment variables (e.g., database connection, API keys)
+├── .env                                # Environment variables (e.g.,database connection, API keys)
 ├── .gitignore                          # Specifies which files and directories to ignore in Git
 ├── package.json                        # Project metadata and dependencies
 ├── Project Structure                   # structure for the project
