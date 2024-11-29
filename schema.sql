@@ -59,6 +59,7 @@ CREATE TABLE OrderItems (
     FOREIGN KEY (customization_id) REFERENCES Customizations(customization_id)
 );
 
+
 -- Create Admins Table
 CREATE TABLE Admins (
     admin_id INT AUTO_INCREMENT PRIMARY KEY,
