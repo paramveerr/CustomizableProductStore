@@ -3,7 +3,6 @@
 **CustomizableProductStore** is a web-based application designed to offer customers a seamless experience in personalizing and purchasing products tailored to their needs. Whether it's clothing, accessories, or gifts, this platform provides real-time customization and a user-friendly interface.
 
 ---
-
 ## Table of Contents
 
 - [Features](#features)
