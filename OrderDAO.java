@@ -1,8 +1,7 @@
 import java.sql.*;
 
 public class OrderDAO {
-
-    // Place a new order
+  // Place a new order
     public boolean placeOrder(int userId, double totalAmount) {
         String query = "INSERT INTO Orders (user_id, total_amount, order_status, payment_status) VALUES (?, ?, 'Pending', 'Pending')";
 
