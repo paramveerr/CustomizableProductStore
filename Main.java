@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
         ProductDAO productDAO = new ProductDAO();
-        
         // Example product data
         String name = "Customizable Mug";
         String description = "A customizable mug that can be printed with your design.";
