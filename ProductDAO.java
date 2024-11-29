@@ -3,8 +3,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class ProductDAO {
-
-    // Method to insert a new product into the Products table
+   // Method to insert a new product into the Products table
     public boolean insertProduct(String name, String description, double basePrice, int stockQuantity, String imageUrl) {
         String insertProductSQL = "INSERT INTO Products (name, description, base_price, stock_quantity, image_url) VALUES (?, ?, ?, ?, ?)";
 
