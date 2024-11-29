@@ -22,8 +22,7 @@ public class UserDAO {
             return false;
         }
     }
-
-    // Get user by ID
+  // Get user by ID
     public User getUserById(int userId) {
         String query = "SELECT * FROM Users WHERE user_id = ?";
         User user = null;
