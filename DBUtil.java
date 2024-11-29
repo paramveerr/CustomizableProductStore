@@ -4,6 +4,7 @@ import java.sql.SQLException;
 
 public class DBUtil {
 
+    
     // Database URL, username, and password
     private static final String DB_URL = "jdbc:mysql://localhost:3306/CustomizableProductStore";
     private static final String DB_USERNAME = "root"; // Change this to your MySQL username
