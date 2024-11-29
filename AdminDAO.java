@@ -1,8 +1,7 @@
 import java.sql.*;
 
 public class AdminDAO {
-
-    // Add a new admin
+  // Add a new admin
     public boolean addAdmin(String name, String email, String passwordHash) {
         String query = "INSERT INTO Admins (name, email, password_hash) VALUES (?, ?, ?)";
         
