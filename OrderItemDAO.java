@@ -1,8 +1,7 @@
 import java.sql.*;
 
 public class OrderItemDAO {
-
-    // Add an item to an order
+   // Add an item to an order
     public boolean addOrderItem(int orderId, int productId, int customizationId, int quantity, double price) {
         String query = "INSERT INTO OrderItems (order_id, product_id, customization_id, quantity, price) VALUES (?, ?, ?, ?, ?)";
         
