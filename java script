@@ -1,0 +1,41 @@
+// Function to display detailed information based on the section
+function showDetails(section) {
+    const detailsElement = document.getElementById('details');
+    let content = '';
+
+    // Content for each section
+    if (section === 'validation') {
+        content = `
+            <h3>Input Validation</h3>
+            <p>Input validation ensures that user inputs meet expected criteria. For example:</p>
+            <ul>
+                <li>Checking if inputs are not empty.</li>
+                <li>Ensuring numeric inputs are within a valid range.</li>
+                <li>Validating string formats such as email addresses or phone numbers.</li>
+            </ul>
+        `;
+    } else if (section === 'accuracy') {
+        content = `
+            <h3>Accuracy of Output</h3>
+            <p>The accuracy of output refers to producing correct and expected results:</p>
+            <ul>
+                <li>All calculations are accurate.</li>
+                <li>Outputs match the requirements or specifications.</li>
+                <li>Edge cases are properly handled.</li>
+            </ul>
+        `;
+    } else if (section === 'feedback') {
+        content = `
+            <h3>Error Messages and Feedback</h3>
+            <p>Good error messages provide clear and actionable feedback:</p>
+            <ul>
+                <li>Error messages are specific and helpful.</li>
+                <li>Feedback guides the user to correct their inputs.</li>
+                <li>System does not crash due to invalid inputs.</li>
+            </ul>
+        `;
+    }
+
+    // Update the details section with the content
+    detailsElement.innerHTML = content;
+}
